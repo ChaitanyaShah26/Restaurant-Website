@@ -1,0 +1,239 @@
+body {
+	background: url(background.jpg) no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #eeecda;
+	background-blend-mode: multiply;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	z-index: 2;
+	width: 100%;
+	background-color: #d4ad79;
+	color: #332219;
+	padding: 15px 0;
+	position: fixed;
+}
+
+nav ul {
+	list-style: none;
+    display: flex;
+    justify-content: safe right;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+	margin: 0 20px;
+}
+
+nav ul li a {
+	text-align: center;
+	text-decoration: none;
+	color: #332219;
+}
+
+.logo-navbar {
+	border-radius: 50px;
+	position: absolute;
+	left: 20px;
+	top: 0px;
+}
+
+main {
+	z-index: 1;
+	position: relative;
+	top: 50px;
+	right: 0px;
+	padding: 10px;
+	background-color: rgba(228, 207, 187, 0.6);
+	text-align: center;
+}
+
+main img {
+	border-radius: 50%;
+}
+
+main h1 {
+	color: #332219;
+	text-shadow: 0px 0px 20px #d4ad79;
+}
+
+footer {
+	z-index: 3;
+	text-align: center;
+	background-color: #d4ad79;
+	color: #332219;
+	width: 100%;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+}
+
+.home-content {
+	background-color: #fafbfa;
+	opacity: 80%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.home-content h2 {
+	text-align: center;
+	line-height: 150px;
+	width: 150px;
+	height: 150px;
+	font-size: 32px;
+	color: #332219;
+}
+
+.home-content h2 a {
+	text-decoration: none;
+	color: #332219;
+}
+
+.home-content h2 mark {
+	color: #332219;
+	background-color: #eeecda;
+	border-radius: 4px;
+}
+
+.menu-content, .about-content, .contact-content {
+	padding: 4px;
+	margin-bottom: 20px;
+}
+
+.menu-content h1, .about-content h1, .contact-content h1 {
+	color: #332219;
+	background-color: rgba(238, 237, 219, 0.4);
+	border-radius: 20px;
+}
+
+.menu-items {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	margin-bottom: 40px;
+}
+
+.menu-items h2 mark{
+	color: #f2ebe6;
+	background-color: rgba(60, 42, 28, 0.85);
+	padding: 4px 20px 4px 20px;
+	border-radius: 20px;
+}
+
+#price {
+	color: #6b5b51;
+}
+
+.coffee-items, .pizza-items, .burger-items, .cake-items {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	background-color: rgba(103, 72, 51, 0.85);
+	border-radius: 24px;
+}
+
+.coffee-items h3, .pizza-items h3, .burger-items h3, .cake-items h3 {
+	color: #332219;
+	background-color: #eeecda;	
+	border-radius: 20px;
+	padding: 2px;
+}
+
+.coffee-items img, .pizza-items img, .burger-items img, .cake-items img {
+	width: 100%;
+	height: 125px;
+	border-radius: 16px;
+	box-shadow: 0px 0px 12px #332219;
+}
+
+.about {
+	text-align: left;
+	font-size: 18px;
+	line-height: 140%;
+	padding: 20px;
+	color: #e2d1c5;
+	background-color: rgba(103, 72, 51, 1.0);
+	border-radius: 24px;
+	margin-bottom: 40px;
+}
+
+.contact {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding: 20px;
+	background-color: rgba(103, 72, 51, 0.85);
+	border-radius: 24px;
+	margin-bottom: 40px;
+}
+
+.contact-top {
+	display: flex;
+	justify-content: flex-start;
+}
+
+#address, #call-us {
+	padding: 8px;
+	text-align: left;
+	margin-right: 200px;
+}
+
+#address h2, #call-us h2 {
+	color: white;
+}
+
+#address p, #call-us p {
+	color: #e2d1c5;
+}
+
+.contact form {
+	color: #e2d1c5;
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+.contact form label {
+	font-size: 20px;
+	padding: 8px;
+	margin-bottom: 4px;
+}
+
+.contact form input, textarea {
+	border-width: 2px;
+	border-radius: 20px;
+	border-color: #1b130d;
+	background-color: #dac4bf;
+	font-size: 18px;
+	font-weight: bold;
+	color: #332219;
+	padding: 8px;
+	margin-bottom: 12px;
+	max-width: 75%;
+}
+
+.contact form button {
+	box-shadow: 0px 0px 20px #c7a68f;
+	background-color: #f6a453;
+	color: #100b08;
+	align-self: center;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 20px;
+	border-width: 2px;
+	border-color: #1b130d;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 24px;
+	height: 100%;
+	width: 20%;
+}
+
+.contact form button:hover {
+	background-color: #eeecda;
+}

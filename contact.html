@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cafe Bistro | Contact</title>
+	<link rel="icon" type="image/icon" href="logo.png">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="index.html"><b>Home</b></a></li>
+				<li><a href="menu.html"><b>Menu</b></a></li>
+				<li><a href="about.html"><b>About Us</b></a></li>
+				<li><a href="contact.html" style="color: #654b38; text-shadow: 0px 0px 8px #f0e7e0;"><b>Contact Us</b></a></li>
+			</ul>
+		</nav>
+		<a href="index.html"><img class="logo-navbar" src="logo.png" width="100" height="100"></a>
+	</header>
+	
+	<main>
+		<div class="contact-content">
+			<h1>CONTACT US</h1>
+			<div class="contact">
+				<div class="contact-top">
+					<div id="address">
+						<h2>Address : </h2>
+						<p>
+							Cafe Bistro<br>
+							123 Flavor Street<br>
+							Gourmet Town, Culinary City, 56789<br>
+						</p>
+					</div>
+				
+					<div id="call-us">
+						<h2>Call Us : </h2>
+						<p>
+							+91 63235xxxxx<br>
+							+91 84569xxxxx<br>
+						</p>
+					</div>
+				</div>
+				
+					
+				<form action="contact-submission.php" method="post">
+					<label for="name">Name : </label>
+					<input type="text" id="name" name="name" required>
+
+					<label for="email">Email : </label>
+					<input type="email" id="email" name="email" required>
+
+					<label for="message">Message : </label>
+					<textarea name="message" required></textarea>
+
+					<button type="submit">Submit</button>
+				</form>
+			</div>
+		</div>
+	</main>
+
+	<footer>
+		<p><i><small>&copy; 2024 Cafe Bistro.</small></i></p>
+	</footer>
+</body>
+
+</html>
