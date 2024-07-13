@@ -76,6 +76,7 @@ footer {
 	background-color: #fafbfa;
 	opacity: 80%;
 	display: flex;
+ flex-wrap: wrap;
 	justify-content: space-around;
 }
 
